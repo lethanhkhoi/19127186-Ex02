@@ -1,8 +1,8 @@
 import axios from "axios";
 import queryString from "query-string";
 const apiConfig = {
-//   baseURL: "https://ec01-03-server.herokuapp.com/",
-  baseURL: "http://localhost:3001/",
+  baseURL: "https://ex02-19127186-be.herokuapp.com/",
+  // baseURL: "http://localhost:3001/",
   token: localStorage.getItem("token") || "",
 };
 
